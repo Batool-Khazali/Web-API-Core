@@ -45,7 +45,7 @@ const categoriesAPI = "https://localhost:7229/api/Categories";
 //         function productsCard() {
 //             productsJSON.forEach((x) => {
 //                 var localID = localStorage.getItem("categoryId");
-//                 if (localID == null || x.categoryId == localID[0])
+//                 if (localID == null || x.categoryId == localID)
 //                 {
 //                     proCon.innerHTML += `
 //                     <div class="col-md-4 mb-3">
@@ -78,7 +78,7 @@ const categoriesAPI = "https://localhost:7229/api/Categories";
 //             productsJSON.forEach((a) =>
 //             {
 
-//                 if (localStorage.getItem("productId")!== null && a.productId == localStorage.getItem("productId")[0])
+//                 if (localStorage.getItem("productId")!== null && a.productId == localStorage.getItem("productId"))
 //                 {
 //                     deCon.innerHTML += `
 //                                     <aside class="col-lg-6">
@@ -199,7 +199,7 @@ async function Try2() {
         function products2Card() {
             pro2JSON.forEach((t) => {
                 var localID = localStorage.getItem("categoryId");
-                if (localID == null || t.categoryId == localID[0]) {
+                if (localID == null || t.categoryId == localID) {
                     proCon.innerHTML += `
                     <div class="col-md-4 mb-3">
                         <div class="card" style="margin:10px;">
@@ -228,7 +228,7 @@ async function Try2() {
 
             pro2JSON.forEach((a) => {
 
-                if (localStorage.getItem("productId") !== null && a.productId == localStorage.getItem("productId")[0]) {
+                if (localStorage.getItem("productId") !== null && a.productId == localStorage.getItem("productId")) {
                     deCon.innerHTML += `
                                         <aside class="col-lg-6">
                         <div class="border rounded-4 mb-3 d-flex justify-content-center">
@@ -259,6 +259,7 @@ async function Try2() {
     
                             <div class="mb-3">
                                 <span class="h5">${a.price} JOD</span>
+                                <h1>${a.productId}</h1>
                             </div>
     
                             <p>
