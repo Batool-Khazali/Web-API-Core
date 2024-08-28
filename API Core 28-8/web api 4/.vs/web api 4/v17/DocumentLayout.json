@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 6\\web api 4\\web api 4\\dtos\\productsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\productsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Program.cs",
+              "RelativeDocumentMoniker": "web api 4\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Program.cs",
+              "RelativeToolTip": "web api 4\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAowCgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:00:11.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "addToCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\DTOs\\addToCartDTO.cs",
+              "RelativeDocumentMoniker": "web api 4\\DTOs\\addToCartDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\DTOs\\addToCartDTO.cs",
+              "RelativeToolTip": "web api 4\\DTOs\\addToCartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:29:04.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItemsResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\DTOs\\CartItemsResponseDTO.cs",
+              "RelativeDocumentMoniker": "web api 4\\DTOs\\CartItemsResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\DTOs\\CartItemsResponseDTO.cs",
+              "RelativeToolTip": "web api 4\\DTOs\\CartItemsResponseDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:22:17.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "web api 4\\Controllers\\CartItemsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "web api 4\\Controllers\\CartItemsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:16:40.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\DTOs\\ProductsRequestDTO.cs",
+              "RelativeDocumentMoniker": "web api 4\\DTOs\\ProductsRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\DTOs\\ProductsRequestDTO.cs",
+              "RelativeToolTip": "web api 4\\DTOs\\ProductsRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:30:16.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "web api 4\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "web api 4\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAwwKIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:33:07.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "web api 4\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 6\\web api 4\\web api 4\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "web api 4\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T11:41:30.138Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
