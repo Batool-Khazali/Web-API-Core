@@ -1,0 +1,452 @@
+2024-08-30 18:30:10.423 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\Notes\.NET web api 7\web api 4\web api 4\wwwroot. Static files may be unavailable.
+2024-08-30 18:30:10.732 +03:00 [INF] Now listening on: https://localhost:7192
+2024-08-30 18:30:10.733 +03:00 [INF] Now listening on: http://localhost:5289
+2024-08-30 18:30:10.736 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-30 18:30:10.737 +03:00 [INF] Hosting environment: Development
+2024-08-30 18:30:10.737 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Notes\.NET web api 7\web api 4\web api 4
+2024-08-30 18:30:11.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/swagger/index.html - null null
+2024-08-30 18:30:11.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/swagger/index.html - 200 null text/html;charset=utf-8 257.7318ms
+2024-08-30 18:30:11.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-30 18:30:11.658 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2024-08-30 18:30:11.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13753 application/javascript; charset=utf-8 5.44ms
+2024-08-30 18:30:11.701 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.2633ms
+2024-08-30 18:30:11.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/swagger/v1/swagger.json - null null
+2024-08-30 18:30:11.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.59ms
+2024-08-30 18:30:30.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:30:30.385 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:30:30.390 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:30:30.408 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:30:31.814 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:30:31.876 +03:00 [INF] success yay
+2024-08-30 18:30:31.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:30:31.883 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:30:31.884 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:30:31.885 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:30:31.888 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:30:31.904 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 1492.5682ms
+2024-08-30 18:30:31.906 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:30:31.912 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:30:31.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 499 null application/json; charset=utf-8 1535.4754ms
+2024-08-30 18:30:31.925 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:30:31.931 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 40.5118ms
+2024-08-30 18:30:31.932 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:30:31.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 53.8738ms
+2024-08-30 18:30:33.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:30:33.244 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:30:33.245 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:30:33.246 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:30:33.289 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:30:33.291 +03:00 [INF] success yay
+2024-08-30 18:30:33.291 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:30:33.292 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 45.0458ms
+2024-08-30 18:30:33.293 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:30:33.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 51.8272ms
+2024-08-30 18:31:49.163 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7192/api/Categories/add - multipart/form-data; boundary=----WebKitFormBoundaryFhaXGZefJNZSKr8P 158542
+2024-08-30 18:31:49.167 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:31:49.168 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.addCategory (web api 4)'
+2024-08-30 18:31:49.175 +03:00 [INF] Route matched with {action = "addCategory", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addCategory(web_api_4.DTOs.CategoriesRequestDto) on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:31:49.309 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryImage], [CategoryName])
+OUTPUT INSERTED.[CategoryID]
+VALUES (@p0, @p1);
+2024-08-30 18:31:49.324 +03:00 [INF] Executing OkObjectResult, writing value of type 'web_api_4.Models.Category'.
+2024-08-30 18:31:49.326 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.addCategory (web api 4) in 150.1475ms
+2024-08-30 18:31:49.327 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.addCategory (web api 4)'
+2024-08-30 18:31:49.328 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7192/api/Categories/add - 200 null application/json; charset=utf-8 164.8665ms
+2024-08-30 18:31:52.152 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:31:52.154 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:31:52.155 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:31:52.155 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:31:52.158 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:31:52.160 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:31:52.163 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 6.4709ms
+2024-08-30 18:31:52.164 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:31:52.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 12.0038ms
+2024-08-30 18:32:41.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:32:41.532 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:32:41.533 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:32:41.533 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:32:41.537 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:32:41.563 +03:00 [INF] success yay
+2024-08-30 18:32:41.563 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:32:41.564 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 29.9865ms
+2024-08-30 18:32:41.565 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:32:41.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 36.1323ms
+2024-08-30 18:32:41.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:32:41.571 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:32:41.571 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:32:41.572 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:32:41.575 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:32:41.577 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:32:41.578 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 5.8038ms
+2024-08-30 18:32:41.579 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:32:41.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 10.042ms
+2024-08-30 18:32:43.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:32:43.840 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:32:43.840 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:32:43.841 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:32:43.845 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:32:43.846 +03:00 [INF] success yay
+2024-08-30 18:32:43.846 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:32:43.847 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 4.679ms
+2024-08-30 18:32:43.847 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:32:43.848 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 9.872ms
+2024-08-30 18:32:43.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:32:43.854 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:32:43.854 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:32:43.855 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:32:43.857 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:32:43.859 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:32:43.860 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 3.9969ms
+2024-08-30 18:32:43.861 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:32:43.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 8.1291ms
+2024-08-30 18:33:03.320 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:33:03.322 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:03.322 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:33:03.323 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:33:03.325 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:33:03.327 +03:00 [INF] success yay
+2024-08-30 18:33:03.327 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:33:03.328 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 3.9015ms
+2024-08-30 18:33:03.329 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:33:03.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 9.6438ms
+2024-08-30 18:33:36.932 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7192/api/Products - multipart/form-data; boundary=----WebKitFormBoundaryAUGcrUAC6KkKvZHN 129827
+2024-08-30 18:33:36.934 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:36.934 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.addProduct (web api 4)'
+2024-08-30 18:33:36.936 +03:00 [INF] Route matched with {action = "addProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addProduct(web_api_4.DTOs.ProductsRequestDTO) on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:33:36.959 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CategoryID], [Description], [Price], [ProductImage], [ProductName])
+OUTPUT INSERTED.[ProductID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-08-30 18:33:36.964 +03:00 [INF] Executing OkObjectResult, writing value of type 'web_api_4.Models.Product'.
+2024-08-30 18:33:36.965 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.addProduct (web api 4) in 27.2418ms
+2024-08-30 18:33:36.966 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.addProduct (web api 4)'
+2024-08-30 18:33:36.966 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 34.6018ms
+2024-08-30 18:33:40.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:33:40.431 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:40.431 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:33:40.432 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:33:40.434 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:33:40.436 +03:00 [INF] success yay
+2024-08-30 18:33:40.436 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:33:40.437 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 3.6044ms
+2024-08-30 18:33:40.437 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:33:40.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 8.3075ms
+2024-08-30 18:33:40.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:33:40.441 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:40.441 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:33:40.442 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:33:40.444 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:33:40.445 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:33:40.446 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 3.0631ms
+2024-08-30 18:33:40.446 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:33:40.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 6.8533ms
+2024-08-30 18:33:49.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:33:49.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:33:49.014 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:49.015 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:49.015 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:33:49.015 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:33:49.016 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:33:49.016 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:33:49.021 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:33:49.022 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:33:49.023 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 6.3598ms
+2024-08-30 18:33:49.024 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:33:49.025 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 12.1259ms
+2024-08-30 18:33:49.025 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:33:49.028 +03:00 [INF] success yay
+2024-08-30 18:33:49.029 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:33:49.030 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 12.1035ms
+2024-08-30 18:33:49.031 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:33:49.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 19.0248ms
+2024-08-30 18:33:49.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:33:49.040 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:49.041 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:33:49.042 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:33:49.045 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:33:49.047 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:33:49.048 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 4.1585ms
+2024-08-30 18:33:49.048 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:33:49.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 10.4814ms
+2024-08-30 18:33:59.370 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7192/api/Products/31 - null null
+2024-08-30 18:33:59.373 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:59.374 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7192/api/Products/31 - 204 null null 4.0146ms
+2024-08-30 18:33:59.378 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7192/api/Products/31 - multipart/form-data; boundary=----WebKitFormBoundaryAOrbk8BaXlP75y3h 158732
+2024-08-30 18:33:59.382 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:33:59.382 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.updateProducts (web api 4)'
+2024-08-30 18:33:59.384 +03:00 [INF] Route matched with {action = "updateProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult updateProducts(Int32, web_api_4.DTOs.ProductsRequestDTO) on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:33:59.449 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__id_0
+2024-08-30 18:33:59.459 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Double), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [CategoryID] = @p0, [Description] = @p1, [Price] = @p2, [ProductImage] = @p3, [ProductName] = @p4
+OUTPUT 1
+WHERE [ProductID] = @p5;
+2024-08-30 18:33:59.463 +03:00 [INF] Executing OkObjectResult, writing value of type 'web_api_4.Models.Product'.
+2024-08-30 18:33:59.464 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.updateProducts (web api 4) in 79.2737ms
+2024-08-30 18:33:59.465 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.updateProducts (web api 4)'
+2024-08-30 18:33:59.466 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7192/api/Products/31 - 200 null application/json; charset=utf-8 87.9255ms
+2024-08-30 18:34:04.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:34:04.160 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:04.161 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:04.161 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:04.163 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:34:04.163 +03:00 [INF] success yay
+2024-08-30 18:34:04.164 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:04.164 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 2.6785ms
+2024-08-30 18:34:04.165 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:04.165 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 7.1346ms
+2024-08-30 18:34:04.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:34:04.169 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:04.169 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:04.170 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:34:04.171 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:34:04.172 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:04.173 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 2.697ms
+2024-08-30 18:34:04.174 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:04.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 6.7349ms
+2024-08-30 18:34:05.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:34:05.121 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:05.122 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:05.122 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:05.124 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:34:05.125 +03:00 [INF] success yay
+2024-08-30 18:34:05.125 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:05.126 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 2.8001ms
+2024-08-30 18:34:05.126 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:05.127 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 6.9913ms
+2024-08-30 18:34:05.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:34:05.131 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:05.132 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:05.132 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:34:05.134 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:34:05.135 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:05.137 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 3.856ms
+2024-08-30 18:34:05.137 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:05.138 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 7.3403ms
+2024-08-30 18:34:06.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:34:06.406 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:06.407 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:06.407 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:06.409 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:34:06.410 +03:00 [INF] success yay
+2024-08-30 18:34:06.411 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:06.412 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 3.6018ms
+2024-08-30 18:34:06.412 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:06.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 9.8023ms
+2024-08-30 18:34:06.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:34:06.416 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:06.417 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:06.418 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:34:06.420 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:34:06.422 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:06.422 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 3.3362ms
+2024-08-30 18:34:06.423 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:06.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 8.0987ms
+2024-08-30 18:34:23.665 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7192/api/Categories/add - multipart/form-data; boundary=----WebKitFormBoundary51A1WbTvoAR4YhHR 204423
+2024-08-30 18:34:23.667 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:23.669 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.addCategory (web api 4)'
+2024-08-30 18:34:23.669 +03:00 [INF] Route matched with {action = "addCategory", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addCategory(web_api_4.DTOs.CategoriesRequestDto) on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:23.678 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryImage], [CategoryName])
+OUTPUT INSERTED.[CategoryID]
+VALUES (@p0, @p1);
+2024-08-30 18:34:23.679 +03:00 [INF] Executing OkObjectResult, writing value of type 'web_api_4.Models.Category'.
+2024-08-30 18:34:23.680 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.addCategory (web api 4) in 8.6987ms
+2024-08-30 18:34:23.680 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.addCategory (web api 4)'
+2024-08-30 18:34:23.681 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7192/api/Categories/add - 200 null application/json; charset=utf-8 15.632ms
+2024-08-30 18:34:27.992 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:34:27.993 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:27.994 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:27.995 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:34:27.997 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:34:27.998 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:27.999 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 3.4123ms
+2024-08-30 18:34:28.000 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:34:28.000 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 8.2099ms
+2024-08-30 18:34:30.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:34:30.860 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:30.860 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:30.861 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:30.863 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:34:30.865 +03:00 [INF] success yay
+2024-08-30 18:34:30.865 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:30.866 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 4.448ms
+2024-08-30 18:34:30.866 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:30.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 8.1725ms
+2024-08-30 18:34:38.242 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7192/api/Categories/27 - null null
+2024-08-30 18:34:38.245 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:38.246 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7192/api/Categories/27 - 204 null null 3.4858ms
+2024-08-30 18:34:38.247 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7192/api/Categories/27 - null null
+2024-08-30 18:34:38.248 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:38.248 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.DeleteCategory (web api 4)'
+2024-08-30 18:34:38.250 +03:00 [INF] Route matched with {action = "DeleteCategory", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteCategory(Int32) on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:38.258 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[CategoryID] = @__id_0
+2024-08-30 18:34:38.271 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+OUTPUT 1
+WHERE [CategoryID] = @p0;
+2024-08-30 18:34:38.276 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-30 18:34:38.277 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.DeleteCategory (web api 4) in 26.261ms
+2024-08-30 18:34:38.277 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.DeleteCategory (web api 4)'
+2024-08-30 18:34:38.278 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7192/api/Categories/27 - 204 null null 30.7961ms
+2024-08-30 18:34:42.832 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7192/api/Categories/28 - null null
+2024-08-30 18:34:42.834 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:42.834 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7192/api/Categories/28 - 204 null null 1.7815ms
+2024-08-30 18:34:42.836 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7192/api/Categories/28 - null null
+2024-08-30 18:34:42.838 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:42.838 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.DeleteCategory (web api 4)'
+2024-08-30 18:34:42.839 +03:00 [INF] Route matched with {action = "DeleteCategory", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteCategory(Int32) on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:42.842 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[CategoryID] = @__id_0
+2024-08-30 18:34:42.845 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+OUTPUT 1
+WHERE [CategoryID] = @p0;
+2024-08-30 18:34:42.846 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-30 18:34:42.846 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.DeleteCategory (web api 4) in 6.4584ms
+2024-08-30 18:34:42.847 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.DeleteCategory (web api 4)'
+2024-08-30 18:34:42.847 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7192/api/Categories/28 - 204 null null 11.0735ms
+2024-08-30 18:34:44.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:34:44.700 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:34:44.700 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:44.701 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:34:44.703 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:34:44.704 +03:00 [INF] success yay
+2024-08-30 18:34:44.705 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:34:44.705 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 3.4974ms
+2024-08-30 18:34:44.706 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:34:44.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 8.9097ms
+2024-08-30 18:36:18.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 18:36:18.043 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:36:18.044 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:36:18.044 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 18:36:18.047 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 18:36:18.049 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:36:18.050 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 5.0087ms
+2024-08-30 18:36:18.051 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 18:36:18.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 9.5131ms
+2024-08-30 18:52:34.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 18:52:34.990 +03:00 [INF] CORS policy execution successful.
+2024-08-30 18:52:34.990 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:52:34.991 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 18:52:35.000 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 18:52:35.002 +03:00 [INF] success yay
+2024-08-30 18:52:35.004 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 18:52:35.005 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 11.8498ms
+2024-08-30 18:52:35.005 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 18:52:35.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 17.9055ms
+2024-08-30 22:12:44.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/swagger/index.html - null null
+2024-08-30 22:12:44.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/swagger/index.html - 200 null text/html;charset=utf-8 13.9139ms
+2024-08-30 22:12:44.540 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-30 22:12:44.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2024-08-30 22:12:44.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13753 application/javascript; charset=utf-8 4.8433ms
+2024-08-30 22:12:44.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.9671ms
+2024-08-30 22:12:44.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/swagger/v1/swagger.json - null null
+2024-08-30 22:12:44.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7927ms
+2024-08-30 22:12:59.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/PS/9-100 - null null
+2024-08-30 22:12:59.049 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.PS.isIt30 (web api 4)'
+2024-08-30 22:12:59.053 +03:00 [INF] Route matched with {action = "isIt30", controller = "PS"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult isIt30(Int32, Int32) on controller web_api_4.Controllers.PS (web api 4).
+2024-08-30 22:12:59.055 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2024-08-30 22:12:59.058 +03:00 [INF] Executed action web_api_4.Controllers.PS.isIt30 (web api 4) in 3.0146ms
+2024-08-30 22:12:59.059 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.PS.isIt30 (web api 4)'
+2024-08-30 22:12:59.059 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/PS/9-100 - 200 null application/json; charset=utf-8 14.9067ms
+2024-08-30 22:13:52.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/PS/math?input=45%20%2A%20100 - null null
+2024-08-30 22:13:52.892 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.PS.Math (web api 4)'
+2024-08-30 22:13:52.894 +03:00 [INF] Route matched with {action = "Math", controller = "PS"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Math(System.String) on controller web_api_4.Controllers.PS (web api 4).
+2024-08-30 22:13:52.901 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2024-08-30 22:13:52.904 +03:00 [INF] Executed action web_api_4.Controllers.PS.Math (web api 4) in 8.2322ms
+2024-08-30 22:13:52.904 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.PS.Math (web api 4)'
+2024-08-30 22:13:52.905 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/PS/math?input=45%20%2A%20100 - 200 null application/json; charset=utf-8 15.6891ms
+2024-08-30 22:26:38.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Products - null null
+2024-08-30 22:26:38.172 +03:00 [INF] CORS policy execution successful.
+2024-08-30 22:26:38.172 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 22:26:38.173 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller web_api_4.Controllers.ProductsController (web api 4).
+2024-08-30 22:26:38.193 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-30 22:26:38.195 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Product, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 22:26:38.196 +03:00 [INF] Executed action web_api_4.Controllers.ProductsController.getAllProducts (web api 4) in 22.0498ms
+2024-08-30 22:26:38.197 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.ProductsController.getAllProducts (web api 4)'
+2024-08-30 22:26:38.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Products - 200 null application/json; charset=utf-8 29.0228ms
+2024-08-30 22:26:39.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7192/api/Categories - null null
+2024-08-30 22:26:39.617 +03:00 [INF] CORS policy execution successful.
+2024-08-30 22:26:39.618 +03:00 [INF] Executing endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 22:26:39.619 +03:00 [INF] Route matched with {action = "getAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllCategories() on controller web_api_4.Controllers.CategoriesController (web api 4).
+2024-08-30 22:26:39.623 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryID], [c].[CategoryImage], [c].[CategoryName]
+FROM [Categories] AS [c]
+2024-08-30 22:26:39.624 +03:00 [INF] success yay
+2024-08-30 22:26:39.624 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[web_api_4.Models.Category, web api 4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-30 22:26:39.625 +03:00 [INF] Executed action web_api_4.Controllers.CategoriesController.getAllCategories (web api 4) in 5.2255ms
+2024-08-30 22:26:39.626 +03:00 [INF] Executed endpoint 'web_api_4.Controllers.CategoriesController.getAllCategories (web api 4)'
+2024-08-30 22:26:39.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7192/api/Categories - 200 null application/json; charset=utf-8 10.6882ms

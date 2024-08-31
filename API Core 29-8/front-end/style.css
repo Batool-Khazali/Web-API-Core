@@ -1,0 +1,535 @@
+
+html,
+body {
+	height: 100%;
+	font-family: "Muli", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	/* font-smoothing: antialiased; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Muli", sans-serif;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+	font-family: "Muli", sans-serif;
+	color: #636363;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 0 0 15px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+/*---------------------
+  Helper CSS
+-----------------------*/
+
+.section-title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.section-title .product-price {
+	font-size: 24px;
+	font-weight: 700;
+	color: #e7ab3c;
+}
+
+.section-title .product-price span {
+	font-size: 16px;
+	font-weight: 400;
+	color: #636363;
+}
+
+.section-title h2 {
+	color: #252525;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 38px;
+	position: relative;
+}
+
+.section-title h2:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -14px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+}
+
+.section-title p {
+	color: #6e6e6e;
+}
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.spad {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/* buttons */
+
+.primary-btn {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 12px 30px;
+	color: #ffffff;
+	background: #e7ab3c;
+	text-transform: uppercase;
+}
+
+.site-btn {
+	color: #ffffff;
+	background: #e7ab3c;
+	border: 1px solid #e7ab3c;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 13px 45px 11px;
+	cursor: pointer;
+}
+
+.banner-section {
+	padding: 80px 50px;
+}
+
+.single-banner {
+	position: relative;
+	z-index: 1;
+}
+
+.single-banner:hover::before {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.single-banner::before {
+	position: absolute;
+	left: 35px;
+	top: 30px;
+	border: 13px solid #ffffff;
+	content: "";
+	opacity: 0.3;
+	width: calc(100% - 70px);
+	height: calc(100% - 60px);
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.single-banner img {
+	min-width: 100%;
+}
+
+.single-banner .inner-text {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100%;
+}
+
+.single-banner .inner-text h4 {
+	color: #252525;
+	font-weight: 700;
+	padding: 11px 28px;
+	background: #ffffff;
+	border-radius: 2px;
+}
+
+
+.categorycard img {
+    object-fit: contain;
+    height: 320px !important;
+    width: 570px !important;
+}
+
+
+/* /////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////// */
+
+
+a#home-tab, a#profile-tab {
+    background-color: white;
+    color: #e7ab3c;
+}
+
+
+.userSideDashList .sideDashItem.active {
+    background-color: #e7ab3c !important;
+    border: #e7ab3c !important;
+}
+
+.profileHR {
+    border: 0.001em solid #e7ab3c;
+}
+
+
+.profile-edit-btn {
+    border: none;
+    border-radius: 1rem;
+    width: 7em !important;
+    padding: 0.3em;
+    margin: 0.7em 0;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    background-color: #e7ab3c;
+}
+
+    .profile-edit-btn:hover {
+        background-color: #763800;
+        color: #FFFDED;
+    }
+
+.emp-profile {
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+    .profile-img img {
+        width: 70%;
+        height: 100%;
+    }
+
+    .profile-img .file {
+        position: relative;
+        overflow: hidden;
+        margin-top: -20%;
+        width: 70%;
+        border: none;
+        border-radius: 0;
+        font-size: 15px;
+        background: #212529b8;
+    }
+
+        .profile-img .file input {
+            position: absolute;
+            opacity: 0;
+            right: 0;
+            top: 0;
+        }
+
+.profile-head h5 {
+    color: #333;
+}
+
+.profile-head h6 {
+    color: #0062cc;
+}
+
+
+.proile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+
+    .proile-rating span {
+        color: #495057;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+.profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+    .profile-head .nav-tabs .nav-link {
+        font-weight: 600;
+        border: none;
+    }
+
+        .profile-head .nav-tabs .nav-link.active {
+            border: none;
+            border-bottom: 2px solid #e7ab3c;
+        }
+
+.profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+    .profile-work p {
+        font-size: 12px;
+        color: #818182;
+        font-weight: 600;
+        margin-top: 10%;
+    }
+
+    .profile-work a {
+        text-decoration: none;
+        color: #495057;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .profile-work ul {
+        list-style: none;
+    }
+
+.profile-tab label {
+    font-weight: 600;
+}
+
+.profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+}
+
+
+
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+	visibility: hidden; /* Hidden by default. Visible on click */
+	min-width: 250px; /* Set a default minimum width */
+	margin-left: -125px; /* Divide value of min-width by 2 */
+	background-color: #333; /* Black background color */
+	color: #fff; /* White text color */
+	text-align: center; /* Centered text */
+	border-radius: 2px; /* Rounded borders */
+	padding: 16px; /* Padding */
+	position: fixed; /* Sit on top of the screen */
+	z-index: 1; /* Add a z-index if needed */
+	left: 50%; /* Center the snackbar */
+	bottom: 30px; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+	visibility: visible; /* Show the snackbar */
+	/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+	However, delay the fade out process for 2.5 seconds */
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+  }
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
+.table-wrapper{
+    margin: 0;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+  
