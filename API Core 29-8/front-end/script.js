@@ -451,7 +451,7 @@ if (cartTable) {
                                 <td>${element.cp.productName}</td>
                                 <td><img src="../images/${element.cp.productImage}" alt="" style="width:10em"></td>
                                 <td>${element.cp.price}</td>
-                                <td><input type="number" value="${element.quantity}" name="cartEditQuantity" id="cartEditQuantity"></td>
+                                <td><input type="number" value="${element.quantity}" name="cartEditQuantity" id="cartEditQuantity${element.cartItemId}"></td>
                                 <td>
                                 <span onclick="EditCartItemQuantity(${element.cartItemId})" style="font-size : 1.3em; ">Edit</span>  |  
                                 <span onclick="deleteCartItem(${element.cartItemId})" style="font-size : 1.3em; ">Delete</span>
@@ -468,17 +468,19 @@ if (cartTable) {
 }
 
 async function EditCartItemQuantity(id) {
-    event.preventDefault();
-    
+    // debugger
     const editCI_API = `https://localhost:7192/api/CartItems/${id}`;
 
-    var getQuantity = document.getElementById("cartEditQuantity").value;
+    let getItemQuantity = document.getElementById(`cartEditQuantity${id}`).value;
 
-    var formData = {
-        quantity: getQuantity,
+    console.log(getItemQuantity);   
+    console.log(id);   
+
+    let formData = {
+        quantity: getItemQuantity,
     }
 
-    await fetch(editCI_API,
+    let response = await fetch(editCI_API,
         {
             method: "PUT",
             body: JSON.stringify(formData),
@@ -487,6 +489,8 @@ async function EditCartItemQuantity(id) {
             },
         }
     )
+    console.log(response);
+
     toasty();
 }
 

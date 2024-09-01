@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pkSFcbNq9R0=",
+  "dgSpecHash": "0cYTfLd8vz4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\web api 4.csproj",
+  "projectFilePath": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\web api 4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orange\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Orange\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

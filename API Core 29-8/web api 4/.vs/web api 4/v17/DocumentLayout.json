@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 7\\web api 4\\web api 4\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - github\\web-api-core\\api core 29-8\\web api 4\\web api 4\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 7\\web api 4\\web api 4\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - github\\web-api-core\\api core 29-8\\web api 4\\web api 4\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 7\\web api 4\\web api 4\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - github\\web-api-core\\api core 29-8\\web api 4\\web api 4\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\cartitemsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 7\\web api 4\\web api 4\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - github\\web-api-core\\api core 29-8\\web api 4\\web api 4\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "updateCartItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\DTOs\\updateCartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\DTOs\\updateCartItemDTO.cs",
               "RelativeDocumentMoniker": "web api 4\\DTOs\\updateCartItemDTO.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\DTOs\\updateCartItemDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\DTOs\\updateCartItemDTO.cs",
               "RelativeToolTip": "web api 4\\DTOs\\updateCartItemDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CartItemsResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\DTOs\\CartItemsResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\DTOs\\CartItemsResponseDTO.cs",
               "RelativeDocumentMoniker": "web api 4\\DTOs\\CartItemsResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\DTOs\\CartItemsResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\DTOs\\CartItemsResponseDTO.cs",
               "RelativeToolTip": "web api 4\\DTOs\\CartItemsResponseDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "addToCartDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\DTOs\\addToCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\DTOs\\addToCartDTO.cs",
               "RelativeDocumentMoniker": "web api 4\\DTOs\\addToCartDTO.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\DTOs\\addToCartDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\DTOs\\addToCartDTO.cs",
               "RelativeToolTip": "web api 4\\DTOs\\addToCartDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,11 +68,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CartItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\Controllers\\CartItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\Controllers\\CartItemsController.cs",
               "RelativeDocumentMoniker": "web api 4\\Controllers\\CartItemsController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 7\\web api 4\\web api 4\\Controllers\\CartItemsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Tasks - GitHub\\Web-API-Core\\API Core 29-8\\web api 4\\web api 4\\Controllers\\CartItemsController.cs",
               "RelativeToolTip": "web api 4\\Controllers\\CartItemsController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAuwGAAAAAAAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAuwGEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T14:26:17.339Z",
               "EditorCaption": ""
