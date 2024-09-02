@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html">categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html" onclick="clearLocal()">products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login-signup.html">login | signup</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div>
+        <div class="py-5">
+            <div>
+                <div class="row gx-5">
+
+
+                    <div class="container">
+                        <input type="checkbox" id="flip">
+                        <div class="cover">
+                            <div class="front">
+                                <img src="../images/Save-Money-On-Groceries_UBC-Food-Services.jpg" alt="">
+                                <div class="text">
+                                    <span class="text-1">Every new friend is a <br> new adventure</span>
+                                    <span class="text-2">Let's get connected</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img class="backImg"
+                                    src="../images/time-grocery-shop-1-f64af0ca04c14e3592329072a3f7bdf8.jpg" alt="">
+                                <div class="text">
+                                    <span class="text-1">Complete miles of journey <br> with one step</span>
+                                    <span class="text-2">Let's get started</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forms">
+                            <div class="form-content">
+                                <div class="login-form">
+                                    <div class="title">Login</div>
+
+                                    <form id="loginForm">
+                                        <div class="input-boxes">
+                                            <div class="input-box">
+                                                <i class="fas fa-user"></i>
+                                                <input type="text" placeholder="Enter your user name" required
+                                                    name="username">
+                                            </div>
+                                            <div class="input-box">
+                                                <i class="fas fa-envelope"></i>
+                                                <input type="email" placeholder="Enter your email" required
+                                                    name="email">
+                                            </div>
+                                            <div class="input-box">
+                                                <i class="fas fa-lock"></i>
+                                                <input type="password" placeholder="Enter your password" required
+                                                    name="password">
+                                            </div>
+                                            <div class="text"><a href="#">Forgot password?</a></div>
+                                            <div class="button input-box">
+                                                <input type="submit" value="Login">
+                                            </div>
+                                            <div class="text sign-up-text">Don't have an account? <label
+                                                    for="flip">Sigup now</label></div>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+
+
+                                <div class="signup-form">
+                                    <div class="title">Signup</div>
+
+                                    <form id="signupForm">
+                                        <div class="input-boxes">
+                                            <div class="input-box">
+                                                <i class="fas fa-user"></i>
+                                                <input type="text" name="username" placeholder="Enter your name"
+                                                    required>
+                                            </div>
+                                            <div class="input-box">
+                                                <i class="fas fa-envelope"></i>
+                                                <input type="email" name="email" placeholder="Enter your email"
+                                                    required>
+                                            </div>
+                                            <div class="input-box">
+                                                <i class="fas fa-lock"></i>
+                                                <input type="password" name="password" id="password" placeholder="Enter your password"
+                                                    required>
+                                            </div>
+                                            <div class="input-box">
+                                                <i class="fas fa-lock"></i>
+                                                <input type="password" id="confirmPWD" placeholder="Enter your password again"
+                                                    required>
+                                            </div>
+                                            <div class="button input-box">
+                                                <input type="submit" value="Sumbit">
+                                            </div>
+                                            <div class="text sign-up-text">Already have an account? <label
+                                                    for="flip">Login now</label></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="snackbar">Signup successfull</div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
