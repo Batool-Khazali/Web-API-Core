@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 9\\web api 4\\web api 4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - clone\\api core 2-9\\web api 4\\web api 4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 9\\web api 4\\web api 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - clone\\api core 2-9\\web api 4\\web api 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 9\\web api 4\\web api 4\\models\\userswithhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - clone\\api core 2-9\\web api 4\\web api 4\\models\\userswithhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\models\\userswithhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 9\\web api 4\\web api 4\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - clone\\api core 2-9\\web api 4\\web api 4\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\notes\\.net web api 9\\web api 4\\web api 4\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|c:\\users\\orange\\desktop\\tasks - clone\\api core 2-9\\web api 4\\web api 4\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E829A5-01D8-405D-AD24-FE455A2F8A90}|web api 4\\web api 4.csproj|solutionrelative:web api 4\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\Program.cs",
               "RelativeDocumentMoniker": "web api 4\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\Program.cs",
               "RelativeToolTip": "web api 4\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UsersWithHash.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\Models\\UsersWithHash.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\Models\\UsersWithHash.cs",
               "RelativeDocumentMoniker": "web api 4\\Models\\UsersWithHash.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\Models\\UsersWithHash.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\Models\\UsersWithHash.cs",
               "RelativeToolTip": "web api 4\\Models\\UsersWithHash.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "web api 4\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\PasswordHasher.cs",
               "RelativeToolTip": "web api 4\\PasswordHasher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UsersDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\DTOs\\UsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\DTOs\\UsersDTO.cs",
               "RelativeDocumentMoniker": "web api 4\\DTOs\\UsersDTO.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\DTOs\\UsersDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\DTOs\\UsersDTO.cs",
               "RelativeToolTip": "web api 4\\DTOs\\UsersDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,11 +84,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "web api 4\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Notes\\.NET web api 9\\web api 4\\web api 4\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\API Core 2-9\\web api 4\\web api 4\\Controllers\\UsersController.cs",
               "RelativeToolTip": "web api 4\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAANIAAAAAAAAAAAAIwO4AAAAAAAAA",
+              "ViewState": "AQIAAMEAAAAAAAAAAADwv9EAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T14:30:02.004Z",
               "EditorCaption": ""

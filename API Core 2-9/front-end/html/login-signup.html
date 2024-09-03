@@ -123,13 +123,13 @@
                                             </div>
                                             <div class="input-box">
                                                 <i class="fas fa-lock"></i>
-                                                <input type="password" name="password" id="password" placeholder="Enter your password"
-                                                    required>
+                                                <input type="password" name="password" id="password"
+                                                    placeholder="Enter your password" required>
                                             </div>
                                             <div class="input-box">
                                                 <i class="fas fa-lock"></i>
-                                                <input type="password" id="confirmPWD" placeholder="Enter your password again"
-                                                    required>
+                                                <input type="password" id="confirmPWD"
+                                                    placeholder="Enter your password again" required>
                                             </div>
                                             <div class="button input-box">
                                                 <input type="submit" value="Sumbit">
@@ -162,7 +162,69 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../script.js"></script>
+    <script>
+
+        // debugger
+        const loginAPI = "https://localhost:7192/api/Users/login";
+
+        const loginFormData = document.getElementById("loginForm");
+
+        loginFormData.addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(loginFormData);
+
+            let response = await fetch(loginAPI,
+                {
+                    method: "POST",
+                    body: formData,
+                }
+            )
+
+            if (response.ok) {
+                toasty();
+                location.href = "../index.html";
+            }
+        });
+
+
+
+        const signupAPI = "https://localhost:7192/api/Users/register";
+        const signupForm = document.getElementById("signupForm");
+
+        signupForm.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            // debugger
+
+            const confirmPWD = document.getElementById("confirmPWD").value;
+            const PWD = document.getElementById("password").value;
+            if (confirmPWD == PWD) {
+                let formData = new FormData(signupForm);
+
+                let response = await fetch(signupAPI,
+                    {
+                        method: "POST",
+                        body: formData,
+                    }
+                )
+
+                if (response.ok) {
+                    toasty();
+                }
+            }
+            else {
+                alert("Passwords do not match")
+            }
+
+
+        });
+
+        function toasty() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        }
+    </script>
 
 </body>
 

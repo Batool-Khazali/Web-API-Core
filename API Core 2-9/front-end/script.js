@@ -557,63 +557,12 @@ function toasty() {
 // //////////////////////////////////////////////////////////////////
 
 
-const loginAPI = "https://localhost:7192/api/Users/login";
-
-const loginFormData = document.getElementById("loginForm");
-
-loginFormData.addEventListener("submit", async (event) => {
-    event.preventDefault();
-
-    const formData = new FormData(loginFormData);
-
-    let response = await fetch(loginAPI,
-        {
-            method: "POST",
-            body: formData,
-        }
-    )
-
-    if (response.ok) {
-        toasty();
-        location.href = "../index.html";
-    }
-});
 
 
-
-const signupAPI = "https://localhost:7192/api/Users/register";
-const signupForm = document.getElementById("signupForm");
-
-signupForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    // debugger
-
-    const confirmPWD = document.getElementById("confirmPWD").value;
-    const PWD = document.getElementById("password").value;
-    if (confirmPWD == PWD) {
-        let formData = new FormData(signupForm);
-
-        let response = await fetch(signupAPI,
-            {
-                method: "POST",
-                body: formData,
-            }
-        )
-
-        if (response.ok) {
-            toasty();
-        }
-    }
-    else{
-        alert("Passwords do not match")
-    }
-
-
-});
 
 
 async function searchUser() {
-    debugger
+    // debugger
     event.preventDefault();
     const userToSearch = document.getElementById("usernametofind").value;
     
@@ -626,7 +575,7 @@ async function searchUser() {
 
     if (getURL.status === 404)
     {
-        formDiv.innerHTML += `
+        formDiv.innerHTML = `
         <h3>user does not exist</h3>
         `;
     }
